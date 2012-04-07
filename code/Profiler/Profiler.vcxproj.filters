@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Experiments">
+      <UniqueIdentifier>{4f9a9a60-bce7-4998-82e8-edc0daf342c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Experiments\1-CPU-Scheduling-OSServices">
+      <UniqueIdentifier>{be6a81fe-4c09-4ea9-8b07-2ee6bb825714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Experiments\2-Memory">
+      <UniqueIdentifier>{627cf0b6-1071-482c-80d8-4767545ae3d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Experiments\3-Network">
+      <UniqueIdentifier>{2d2a5424-b262-4572-823b-465ed7203021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Experiments\4-FileSystem">
+      <UniqueIdentifier>{77cbc5a2-74d4-4a73-9200-18162232a015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{a56b883a-f9c8-4cb3-942a-b85a74cd2360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{960d8fc7-e785-45ba-ad0f-627895fb935d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{ce776868-e7fc-4a2e-b206-3e20b7887639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Experiments\X-Misc">
+      <UniqueIdentifier>{01da80c1-e009-40b4-aaec-d6afc55670d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MeasurementOverhead.h">
+      <Filter>Experiments\1-CPU-Scheduling-OSServices</Filter>
+    </ClInclude>
+    <ClInclude Include="Experiment.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="StopwatchStack.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathx.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Experiments.h">
+      <Filter>Experiments</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcedureOverhead.h">
+      <Filter>Experiments\1-CPU-Scheduling-OSServices</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemCallOverhead.h">
+      <Filter>Experiments\1-CPU-Scheduling-OSServices</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskCreation.h">
+      <Filter>Experiments\1-CPU-Scheduling-OSServices</Filter>
+    </ClInclude>
+    <ClInclude Include="ContextSwitchTime.h">
+      <Filter>Experiments\1-CPU-Scheduling-OSServices</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryLatency.h">
+      <Filter>Experiments\2-Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryBandwidth.h">
+      <Filter>Experiments\2-Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPageFault.h">
+      <Filter>Experiments\2-Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPeakBandwidth.h">
+      <Filter>Experiments\3-Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkRoundTripTime.h">
+      <Filter>Experiments\3-Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkSetupTeardown.h">
+      <Filter>Experiments\3-Network</Filter>
+    </ClInclude>
+    <ClInclude Include="FakeKernel.h">
+      <Filter>Experiments\X-Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystemLocalRead.h">
+      <Filter>Experiments\4-FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystemExperiment.h">
+      <Filter>Experiments\4-FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystemRemoteRead.h">
+      <Filter>Experiments\4-FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystemCacheSize.h">
+      <Filter>Experiments\4-FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystemContention.h">
+      <Filter>Experiments\4-FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="LoopOverhead.h">
+      <Filter>Experiments\X-Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MeasurementOverhead.cpp">
+      <Filter>Experiments\1-CPU-Scheduling-OSServices</Filter>
+    </ClCompile>
+    <ClCompile Include="StopwatchStack.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Experiment.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcedureOverhead.cpp">
+      <Filter>Experiments\1-CPU-Scheduling-OSServices</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemCallOverhead.cpp">
+      <Filter>Experiments\1-CPU-Scheduling-OSServices</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskCreation.cpp">
+      <Filter>Experiments\1-CPU-Scheduling-OSServices</Filter>
+    </ClCompile>
+    <ClCompile Include="ContextSwitchTime.cpp">
+      <Filter>Experiments\1-CPU-Scheduling-OSServices</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryLatency.cpp">
+      <Filter>Experiments\2-Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryBandwidth.cpp">
+      <Filter>Experiments\2-Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPageFault.cpp">
+      <Filter>Experiments\2-Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkPeakBandwidth.cpp">
+      <Filter>Experiments\3-Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkRoundTripTime.cpp">
+      <Filter>Experiments\3-Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkSetupTeardown.cpp">
+      <Filter>Experiments\3-Network</Filter>
+    </ClCompile>
+    <ClCompile Include="FakeKernel.cpp">
+      <Filter>Experiments\X-Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystemLocalRead.cpp">
+      <Filter>Experiments\4-FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystemExperiment.cpp">
+      <Filter>Experiments\4-FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystemRemoteRead.cpp">
+      <Filter>Experiments\4-FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystemCacheSize.cpp">
+      <Filter>Experiments\4-FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystemContention.cpp">
+      <Filter>Experiments\4-FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopOverhead.cpp">
+      <Filter>Experiments\X-Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StopwatchStack.inl">
+      <Filter>Framework</Filter>
+    </None>
+  </ItemGroup>
+</Project>

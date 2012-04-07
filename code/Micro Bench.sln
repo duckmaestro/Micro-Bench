@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Profiler", "Profiler\Profiler.vcxproj", "{E3B0517C-7C42-46A4-B8AF-04E3F61AA5A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memSucker", "MemSucker\memSucker.vcxproj", "{E951C7AA-F94C-4239-9FA7-8208C9EAD5DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3B0517C-7C42-46A4-B8AF-04E3F61AA5A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3B0517C-7C42-46A4-B8AF-04E3F61AA5A2}.Debug|Win32.Build.0 = Debug|Win32
+		{E3B0517C-7C42-46A4-B8AF-04E3F61AA5A2}.Release|Win32.ActiveCfg = Release|Win32
+		{E3B0517C-7C42-46A4-B8AF-04E3F61AA5A2}.Release|Win32.Build.0 = Release|Win32
+		{E951C7AA-F94C-4239-9FA7-8208C9EAD5DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E951C7AA-F94C-4239-9FA7-8208C9EAD5DF}.Debug|Win32.Build.0 = Debug|Win32
+		{E951C7AA-F94C-4239-9FA7-8208C9EAD5DF}.Release|Win32.ActiveCfg = Release|Win32
+		{E951C7AA-F94C-4239-9FA7-8208C9EAD5DF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
