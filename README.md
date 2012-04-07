@@ -31,7 +31,7 @@ to measure overhead of our stopwatch.
 In `main.cpp` you will find a 
 number of "Experiments" available to specify for inclusion in the main run. 
 Once you have included one or more experiments, you may run the application 
-and results will be printed on-screen (usually in microseconds / �s) upon completion.
+and results will be printed on-screen (usually in microseconds / μs) upon completion.
 
 Also note that some experiments assume hard-coded root disk paths (i.e. "D:\" or "K:\"). 
 Please refer to the top of some c++ files for current values of constants.
